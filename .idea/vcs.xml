@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/clustering" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/hashing_and_bloom" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/moaclassifier" vcs="svn" />
   </component>
 </project>

@@ -6,10 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="stream_mining" />
+        <module name="clustering" />
+        <module name="hashing_and_bloom" />
+        <module name="moaclassifier" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="clustering" target="1.8" />
+      <module name="hashing_and_bloom" target="1.8" />
+      <module name="moaclassifier" target="1.8" />
       <module name="stream_mining" target="1.8" />
     </bytecodeTargetLevel>
   </component>

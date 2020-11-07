@@ -23,7 +23,12 @@ under the License.
 	<groupId>stream_mining</groupId>
 	<artifactId>stream_mining</artifactId>
 	<version>0.1</version>
-	<packaging>jar</packaging>
+    <modules>
+        <module>moaclassifier</module>
+        <module>hashing_and_bloom</module>
+		<module>clustering</module>
+	</modules>
+    <packaging>pom</packaging>
 
 	<name>Flink Walkthrough DataStream Java</name>
 	<url>https://flink.apache.org</url>
