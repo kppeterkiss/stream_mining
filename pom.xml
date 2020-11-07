@@ -24,9 +24,6 @@ under the License.
 	<artifactId>stream_mining</artifactId>
 	<version>0.1</version>
     <modules>
-        <module>moaclassifier</module>
-        <module>hashing_and_bloom</module>
-		<module>clustering</module>
 	</modules>
     <packaging>pom</packaging>
 
@@ -76,6 +73,12 @@ under the License.
 			<artifactId>flink-clients_${scala.binary.version}</artifactId>
 			<version>${flink.version}</version>
 			<scope>compile</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.moa/moa -->
+		<dependency>
+			<groupId>nz.ac.waikato.cms.moa</groupId>
+			<artifactId>moa</artifactId>
+			<version>2020.07.1</version>
 		</dependency>
 
 		<!-- Add connector dependencies here. They must be in the default scope (compile). -->

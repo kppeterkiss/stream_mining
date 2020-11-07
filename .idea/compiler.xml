@@ -6,9 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="clustering" />
-        <module name="hashing_and_bloom" />
-        <module name="moaclassifier" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

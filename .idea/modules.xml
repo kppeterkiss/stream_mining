@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/clustering/clustering.iml" filepath="$PROJECT_DIR$/clustering/clustering.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hashing_and_bloom/hashing_and_bloom.iml" filepath="$PROJECT_DIR$/hashing_and_bloom/hashing_and_bloom.iml" />
-      <module fileurl="file://$PROJECT_DIR$/moaclassifier/moaclassifier.iml" filepath="$PROJECT_DIR$/moaclassifier/moaclassifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/stream_mining.iml" filepath="$PROJECT_DIR$/stream_mining.iml" />
     </modules>
   </component>
